@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Some node api",
   "main": "index.js",
-  "start": "nodemon server.js",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
