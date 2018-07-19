@@ -1,0 +1,27 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Some node api",
+  "main": "index.js",
+  "start": "nodemon server.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucastagliani/node-api.git"
+  },
+  "author": "Lucas Tagliani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucastagliani/node-api/issues"
+  },
+  "homepage": "https://github.com/lucastagliani/node-api#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.2.4"
+  }
+}
